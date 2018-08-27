@@ -1,0 +1,35 @@
+* 100bpm 3/4 C maj
+
+Play = Base Intro Core End
+  
+
+Base = Lead: E1.pp B1.pp E1.pp B1.pp E1.pp B1.pp
+DramaticMemory = E3.fff G3 B3.fff
+Silence = _ _ _
+Voice1 = B4.f | G4.fff
+Voice2 = F#4.fff | E4.fff
+
+Intro =
+  Base
+  DramaticMemory DramaticMemory
+  Silence Voice1 Voice2
+
+Core =
+  Base
+  Speech1 Speech2
+
+Speech1 = Phrase1 Phrase2 Phrase3
+Speech2 = 
+ 
+Phrase1 = 
+  E4.fff B4 G4 A4 | B4.fff | _ E4.f G4.fff | _ F#4.f B4.fff
+Phrase2 =
+  Lead: Phrase1
+  C3.ff E2 | F#2.fff
+Phrase3 =
+  Lead: Phrase2
+  F#4 F#3 F#2.fff | G4 G3 G2.fff  
+
+End =
+  DramaticMemory DramaticMemory
+  Voice1 Voice2
